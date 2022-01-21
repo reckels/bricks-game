@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0, 0, 10, 0;
+}
+
+h1 {
+    color: white;
+    float: right;
+    padding-right: 80px;
+}
+
+.game-board {
+    clear: both;
+    background-color: black;
+    width: 1050px;
+    height: 500px;
+    position: relative;
+    border: solid;
+    border-width: 14px;
+    border-color: rgb(216, 211, 211);
+    border-bottom: none;
+    border-radius: 2px;
+}
+
+.brick-grid {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: black;
+    grid-row-gap: 1px;
+    position: absolute;
+    
+}
+
+.button {
+    padding: 12px 40px;
+}
+
+.red {
+    grid-area: r;
+    background-color: red;
+}
+
+.yellow {
+    grid-area: yy;
+    background-color: yellow;
+}
+
+.green {
+    grid-area: g;
+    background-color: green;
+}
+
+.blue {
+    grid-area: b;
+    background-color: blue;
+}
+
+.empty {
+    background-color: black;
+    border: none;
+}
+
+.ball {
+    border-radius: 0;
+    padding: 4px 4px;
+    border: none;
+}
+
+#ball2{
+    margin-left: 74px;
+}
+
+#ball3{
+    margin-left: 120px;
+    margin-top: 300px;
+}
+
+.paddle {
+    bottom: 0;
+    margin-top: 170px ;
+    margin-left: 500px;
+    padding: 8px 80px;
+}

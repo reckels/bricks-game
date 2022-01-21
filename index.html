@@ -5,8 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bricks Game</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <div class="top-bar">
+        <h1>Score</h1>
+    </div>
+    <div class="game-board">
+        <div class="brick-grid">
+            
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+            <div class="brick"><button class="button red"></button></div>
+
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div><button class="button ball" id="ball1"></button></div>
+            <div class="brick"><button class="button empty"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button empty"></button></div>
+            <div><button class="button ball" id="ball2"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button empty"></button></div>
+            <div class="brick"><button class="button empty"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button empty"></button></div>
+            <div class="brick"><button class="button empty"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+            <div class="brick"><button class="button yellow"></button></div>
+
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+            <div class="brick"><button class="button green"></button></div>
+
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+            <div class="brick"><button class="button blue"></button></div>
+        </div>
+        <div>
+            <button class="button ball" id="ball3"></button>
+        </div>
+        <div>
+            <button class="button paddle"></button>
+        </div>
+    </div>
     
 </body>
 </html>
